@@ -1,0 +1,73 @@
+/* 全体 */
+html {
+  /* font-size: 16px; */
+  font-family: sans-serif;
+}
+*{
+  box-sizing: border-box;
+}
+
+div {
+  margin: 20px 0 0 0;
+}
+
+h1 {
+  border-bottom: solid 5px blue;
+}
+/*  全体ここまで  */
+
+/*  タイトル  */
+.title span#arrow{
+  color:red;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.title span{
+  color: yellow;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.title {
+  font-size: 26px;
+  height: 70px;
+  background-color: cornflowerblue;
+}
+/*  タイトルここまで  */
+
+/* カテゴリ*/
+#div-category label{
+  display: block; /*div要素を縦並びにする */
+  background-color: yellow;
+  width: 300px;
+}
+/* カテゴリここまで*/
+
+/* 入力ボタン */
+#input-into-total {
+  margin: 20px 0 30px 0;
+  width: 200px;
+  padding: 10px;
+
+}
+/* 入力ボタンここまで */
+
+/*  テーブル  */
+table {
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+th {
+  border:solid 1px #888;
+  background-color: beige;
+  width: 200px;
+}
+td {
+  border:solid 1px #888;
+}
+#食費＿食材, #食費＿外食, #光熱費＿電気, #光熱費＿ガス, #光熱費＿水道, #交通費＿ガソリン代, #交通費＿高速代, #娯楽費, #ケータイ代 {
+ text-align: right;
+}
+
+/*  テーブルここまで  */
